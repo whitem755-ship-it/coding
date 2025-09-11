@@ -10,4 +10,4 @@ print(300 + int(Bonus))
 
 #Problem 3
 Value = 'true'
-print(True == Value)
+print('True' == Value)
