@@ -29,5 +29,5 @@ def tringle(length, width):
 
 tringle(20, 15)
 
-def  
+
 

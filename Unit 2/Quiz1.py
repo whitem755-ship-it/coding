@@ -32,14 +32,16 @@ print(30/ 232)
 "The equal is assigning a value to something the double equal is comparing two value that are the same"
 # 5. Write code that takes a user’s input (as a string), 
 # casts it to a float, and prints the result multiplied by 2.
-print(float(2))
+print(float(3)*2)
 # 6. What is the difference between a parameter and an argument?
 # Please write your response in complete sentences.
-"Parameter is a placeholder for data that will be actually used an Argument goes into the function invocation or call"
+"Parameter is a placeholder for data that will be actually used in the function definition" 
+"An Argument is the actual value that goes into the function."
 # 7. What is the difference between a function definition 
 # and a function invocation? # Please write your response in 
 # complete sentences.
-"function definition is look a play that a team learn  function invocation is when your actually using it"
+"A function definition describing what we want the function to do"
+"A function invocation is when your actually using it"
 # 8. Why are functions useful in programming? Provide at least two reasons 
 # and write your reasons in in complete sentences.
 ""

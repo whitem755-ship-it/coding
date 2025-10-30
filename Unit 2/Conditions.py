@@ -49,10 +49,23 @@ def testTakerPermit(age):
 testTakerPermit(17)
 
 def etheirOr(Number):
-    if Number = +
+    if Number >= 0:
         print("this is positive")
     else:
         print("this number is negative")
 
 etheirOr(18)
 
+def  letterGrades(Grade):
+    if Grade <= 70:
+        print("Your grade is an F")
+    elif Grade >= 70  <= 80:
+        print("Your grade is an C")
+    elif Grade >= 80  <= 90:
+        print("Your grade is an B")
+    elif Grade >= 90:
+        print("Your grade is an A")
+    else:
+        print("Your grade is an F")
+
+letterGrades()
