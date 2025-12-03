@@ -1,6 +1,6 @@
 # This is a comment
 
-Micah White
+
 # Strings - characters are wrapped together by
 #Quotations
 

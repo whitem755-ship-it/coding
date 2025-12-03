@@ -8,4 +8,3 @@ def shoppingList():
     print(List)
 
 shoppingList()
-
