@@ -1,6 +1,7 @@
 def Quiz():
+    score = 0
     print("Start Quiz")
- 
+  
     print("Question.1 What Operator family does this = belong to. ")
     print(" 1. Arithmetic")
     print(" 2. Comparison")
@@ -10,6 +11,7 @@ def Quiz():
     select = int(input("choose an anwer:"))
     if select == 4:
         print("correct")
+        score = score + 1
     else:
         print("Incorrect")
     
@@ -21,6 +23,7 @@ def Quiz():
     select = int(input("choose an anwer:"))
     if select == 1:
         print("correct")
+        score = score + 1
     else:
         print("Incorrect")
 
@@ -30,6 +33,7 @@ def Quiz():
     select = int(input("choose an anwer:"))
     if select == 1:
         print("correct")
+        score = score + 1
     else:
         print("Incorrect")
 
@@ -38,11 +42,24 @@ def Quiz():
     print("2. reverse()")
     print("3. count()")
     print("4.copy()")
+    select = int(input("choose an anwer:"))
+    if select == 1:
+        print("correct")
+        score = score + 1
+    else:
+        print("Incorrect")
 
-    
-
-
-    
+    print("Question.5 what symbol would you use to make a comment")
+    print(" 1. =")
+    print(" 2. +")
+    print(" 3. #")
+    print("4. ==")
+    select = int(input("choose an anwer:"))
+    if select == 3:
+        print("correct")
+        score = score + 1
+    else:
+        print("Incorrect")
+    print("The final score of correct answers is:" + str(score))
  
-
 Quiz()
