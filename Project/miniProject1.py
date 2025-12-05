@@ -62,9 +62,9 @@ def Quiz():
         print("Incorrect")
 
     print("Question.6 what does this == symbol")
-    print("1. comaring if the values are " The SAME"")
-    print("2. checks and compares if certain code condition are true or false")
-    print("3. assign value to variables ")
+    print ("1. Comaring if the values are  The SAME")
+    print("2. Checks and compares if certain code condition are true or false")
+    print("3. Assign value to variables ")
     print("4. None of the above")
     select = int(input("choose an anwer:"))
     if select == 1:
@@ -74,9 +74,9 @@ def Quiz():
         print("Incorrect")
     print("Question.7 what symbol do we use to multiply two or more numbers")
     print("1. #")
-    print("2. !")
-    print("3. *")
-    print("4. /")
+    print("2. !=")
+    print("3. *=")
+    print("4. /=")
     select = int(input("choose an anwer:"))
     if select == 3:
         print("correct")
@@ -84,7 +84,39 @@ def Quiz():
     else:
         print("Incorrect")
 
-    print("Question.8 
-
+    print("Question.8 what is the definition of a Syntax error")
+    print("1. The computer has detected an issue with how your code is written.")
+    print("2. The computer has detected an issue with a function, specifically how the function is")
+    print("3. An issue with how you using data type")
+    print("4. The computer has detected a math issue")
+    select = int(input("choose an anwer:"))
+    if select == 1:
+        print("correct")
+        score = score + 1
+    else:
+        print("Incorrect")
+    print("Question.9 what symbol do we use to subtract")
+    print("1. !=")
+    print("2. #")
+    print("3. -=")
+    print("4.==")
+    select = int(input("choose an anwer:"))
+    if select == 3:
+        print("correct")
+        score = score + 1
+    else:
+        print("Incorrect")
+    print("Question.10 what is the definition of Data casting")
+    print("1. Changing one data type to another data type")
+    print("2. Pre-written code that is stored in the programming language.")
+    print("3. Users to type data into a program and assign it to a variable")
+    print("4. Combine 2 or more string together using the plus symbol.")
+    select = int(input("choose an anwer:"))
+    if select == 1:
+        print("correct")
+        score = score + 1
+    else:
+        print("Incorrect")
 print("The final score of correct answers is:" + str(score))
+
 Quiz()

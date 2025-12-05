@@ -13,7 +13,7 @@ print(True)
 
 name = input('What is your name:')
 
-#String concatenationis where you can combine 2 or moere string
+#String concatenationis where you can combine 2 or more string
 #together using the plus symbol.
 #print('Good morning' + name)
 
