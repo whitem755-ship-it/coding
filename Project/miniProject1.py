@@ -117,6 +117,7 @@ def Quiz():
         score = score + 1
     else:
         print("Incorrect")
-print("The final score of correct answers is:" + str(score))
+        
+    print("The final score of correct answers is:" + str(score)) 
 
 Quiz()
