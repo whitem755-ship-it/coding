@@ -25,11 +25,13 @@ def password():
         attempts += 1
         print('number of attempts left: '+ str(attempts) +'/ 3')
         userPassword = input ('please try again: ')
-    if attempts == 3:
-        print('You made too many incorrect attempts. your account has been locked')
+        if attempts == 3:
+            print('You made too many incorrect attempts. your account has been locked')
+            break
     else:
         print('welcome to your account')
 
+password()
 
 number = 0
 while number < 10:
